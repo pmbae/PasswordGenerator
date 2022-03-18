@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+    <h1 class="title">Password Generator</h1>
+    <h3 class="showpassword" id="showpassword">password</h3>
+    <div id="passwordGeneratorDiv" class="passwordGeneratorDiv">
+              
+        <label for="includeUppercase">Uppercase</label> 
+        <input type="checkbox" id="includeUppercase">
+        
+        <label for="includeLowercase">Lowercase</label> 
+        <input type="checkbox" id="includeLowercase">
+        
+        <label for="includeNumbers">Numbers</label> 
+        <input type="checkbox" id="includeNumbers">
+        
+        <label for="includeSymbols">Symbols</label> 
+        <input type="checkbox" id="includeSymbols">
+
+        <label for ="characterAmountNumber">Character length</label> 
+        <output>#</output>
+        <input type="range" value="8" min="8" max="128" class="slider" oninput="this.nextElementSibling.value = this.value" id="slider">
+        <output>#</output>
+        <button id="submit" onclick="generatepassword();">Generate Password</button>
+       </div>
+    </div>
+</body>
+</html>

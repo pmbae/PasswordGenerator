@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(87, 3, 62);
+    margin: 0;
+    color:black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container {
+    background-color: lightpink;
+    padding: 4rem;
+    border-radius: 1rem;
+    border: 4px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.passwordGeneratorDiv {
+    display:grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.showpassword {
+    font-style: italic;
+}
+.title {
+    margin:0;
+    text-align:center;
+}
+.slider {
+    width:240px;
+}
+.showpassword {
+    background-color: white;
+    color:black;
+    padding: 1rem;
+    border: 4px solid lightgreen;
+    height: 2rem;
+    width: 350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: 1rem;
+}
+#submit {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightgreen;
+    opacity: 85%;
+    font-size: 22px;
+    color: black;
+    padding: 15px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    align-items: flex;
+}
+#submit:hover {
+    background-color: green;
+    align-items: center;
+}
+#submit:active {
+  background-color: #3E8E41;
+  box-shadow: 0 8px #555;
+  transform: translateY(4px);
+  align-items: center;
+}
