@@ -1,5 +1,5 @@
 # PasswordGenerator
-This team project involves: html, css, and javascript.
+This team project involves: html, css, and javascript. **I worked on the JavaScript code, and a little bit of html and css.**
 We were provided with a scenario to provide a client with the ability to obtain a strong password.
 
 **User Story**
