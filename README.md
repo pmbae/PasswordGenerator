@@ -20,3 +20,5 @@ WHEN all criteria are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is written to the page
+
+Link to Project Pages: https://pmbae.github.io/PasswordGenerator/
